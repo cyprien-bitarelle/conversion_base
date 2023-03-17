@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conversion</title>
+</head>
+
+<body>
+  <h1>Conversion de la base 10 à n'importe quelle base</h1>
+  <input id="nombre" type="text" placeholder="Nombre à convertir" />
+  <input id="base" type="text" placeholder="Base" onkeypress="if(event.keyCode==13) {recupValeur()}" />
+  <input onclick="recupValeur()" type="button" value="Convertir" />
+  <p id="resultat"></p>
+  <script src="./conversion.js"></script>
+</body>
+
+</html>
